@@ -13,7 +13,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String Hello() {
-        return "Hello test";
+        return "Hello test 22 567 99 00 123";
     }
 
     @RequestMapping(method = RequestMethod.GET, value = "/hello2")
