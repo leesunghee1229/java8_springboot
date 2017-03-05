@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/common.css"/>
+</head>
+<body>
+
+<div id="bo_list" style="width:100%">
+    <div class="bo_fx">
+        <div id="bo_list_total">
+            <span>Total 2건</span> 1 페이지
+        </div>
+        <ul class="btn_bo_user">
+            <li><a href="./write.php?bo_table=notice" class="btn_b02">글쓰기</a></li>
+        </ul>
+    </div>
+
+    <form name="fboardlist" id="fboardlist" method="post">
+        <div class="tbl_head01 tbl_wrap">
+            <table>
+                <caption>공지사항 목록</caption>
+                <thead>
+                <tr>
+                    <th scope="col">번호</th>
+                    <th scope="col">제목</th>
+                    <th scope="col">글쓴이</th>
+                    <th scope="col">
+                        <a href="/bbs/board.php?bo_table=notice&amp;sop=and&amp;sst=wr_datetime&amp;sod=desc&amp;sfl=&amp;stx=&amp;page=1">날짜</a>
+                    </th>
+                    <th scope="col">
+                        <a href="/bbs/board.php?bo_table=notice&amp;sop=and&amp;sst=wr_hit&amp;sod=desc&amp;sfl=&amp;stx=&amp;page=1">조회</a>
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="bo_notice">
+                    <td class="td_num">
+                        <strong>공지</strong></td>
+                    <td class="td_subject">
+
+                        <a href="http://webtoapp.kr/bbs/board.php?bo_table=notice&amp;wr_id=2"> 2014년 햅쌀 주문 연락처 입니다. </a>
+
+                    </td>
+                    <td class="td_name sv_use"><span class="sv_member">최고관리자</span></td>
+                    <td class="td_date">10-21</td>
+                    <td class="td_num">12</td>
+                </tr>
+                <tr class="">
+                    <td class="td_num">
+                        1
+                    </td>
+                    <td class="td_subject">
+                        <a href="http://webtoapp.kr/bbs/board.php?bo_table=notice&amp;wr_id=1"> 철원 오대쌀 쇼핑몰이 오픈하였습니다. </a>
+                    </td>
+                    <td class="td_name sv_use"><span class="sv_member">최고관리자</span></td>
+                    <td class="td_date">10-21</td>
+                    <td class="td_num">13</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="bo_fx">
+            <ul class="btn_bo_user">
+                <li><a href="./write.php?bo_table=notice" class="btn_b02">글쓰기</a></li>
+            </ul>
+        </div>
+    </form>
+</div>
+</body>
+</html>

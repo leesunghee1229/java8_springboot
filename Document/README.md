@@ -11,18 +11,26 @@
 1) registry 설정
 ctrl + shift + a 를 누르면 IntelliJ에서 검색창이 뜨고 registry 에서 
 compiler.automake.allow.when.app.running  에 체크
-
 2) make project automatically 에 체크
-
 3) application.properties 설정
 spring.devtools.livereload.enabled = true
-
 4) build.gradle 설정 
 compile("org.springframework.boot:spring-boot-devtools")
 
-
 ### todo
-* freemaker?
+* tytemplate?
+* jsp, jstl
+* mysql db connect
+* 관리자 페이지 그누보드 처럼... 만들것!
+* 사용자 페이지 webpack + vue.js 로 만들것!
+* application-dev.properties , application-prod.properties 설정으로 나눌것! 
+* logging ( system , db query)
+
+
+
+
+
+
 
 
 
