@@ -17,14 +17,20 @@ spring.devtools.livereload.enabled = true
 4) build.gradle 설정 
 compile("org.springframework.boot:spring-boot-devtools")
 
+### todo complete
+* tymeleaf 익히기 (layout )
+
+
+
+
 ### todo
-* tytemplate?
-* jsp, jstl
-* mysql db connect
+* 이미지 업로드 , 파일 업로드 
 * 관리자 페이지 그누보드 처럼... 만들것!
 * 사용자 페이지 webpack + vue.js 로 만들것!
 * application-dev.properties , application-prod.properties 설정으로 나눌것! 
 * logging ( system , db query)
+* mybitis, jpa 같이 쓸수 있는 설정
+* 다중 디비 연결하기
 
 
 
